@@ -1,4 +1,5 @@
 .page {
+  background-color: var(--body-bg-color);
   background-image: var(--body-bg-image, url(../images/cover-image.png));
   background-repeat: no-repeat;
   background-position: center;
