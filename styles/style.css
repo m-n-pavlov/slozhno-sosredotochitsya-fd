@@ -254,7 +254,6 @@
     margin-block-end: 60px;
     padding-inline: 20px;
     padding-block: 20px;
-    block-size: max(100vh, 668px);
   }
 
   .header__title {
@@ -306,7 +305,6 @@
   .content__gallery-image {
     object-fit: cover;
     object-position: center;
-    inline-size: 100%;
     block-size: 100%;
   }
 
@@ -342,7 +340,6 @@
   .footer {
     padding-inline: 20px;
     padding-block: 20px;
-    block-size: max(100vh, 668px);
   }
 
   .footer__title {
@@ -351,10 +348,6 @@
 }
 
 @media (width >= 1024px) {
-  .header {
-    block-size: max(100vh, 668px);
-  }
-
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -380,10 +373,6 @@
     grid-column: 2 / 4;
   }
 
-  .content__section_causes .content__section-title {
-    grid-column: 1 / 2;
-  }
-
   .content__section_causes .content__section-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -393,9 +382,5 @@
   .content__section_advices .content__section-subtitle,
   .content__section_advices .content__section-list {
     grid-column: 2 / 4;
-  }
-
-  .footer {
-    block-size: max(100vh, 668px);
   }
 }
