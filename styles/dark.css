@@ -5,12 +5,13 @@
   --title-decor-color: #000028;
   --header-footer-title-color: #DB00FF;
   --accent-color: #ff0070;
-  --h3-color: #ff0070;
+  --section-title-color: #ff0070;
   --button-border-color-hover: #ff007066;
   --button-border-color-focus: #ff0070;
   --button-color: #ff0070;
   --active-button-border-color: #ff0070;
   --link-states-color: #F1B2CE;
+  --decorative-corner-color: #ff0070;
 }
 
 

@@ -8,7 +8,7 @@ body {
   min-inline-size: 375px; /* минимальная ширина */
   max-inline-size: 1440px; /* максимальная ширина */
   margin: 0 auto; /* контент по центру страницы */
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: 'IBM Plex mono', monospace;
 }
 
 h1,

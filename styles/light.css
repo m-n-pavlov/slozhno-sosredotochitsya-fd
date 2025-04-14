@@ -5,12 +5,13 @@
   --title-decor-color: #353430;
   --header-footer-title-color: #FFC2E6;
   --accent-color: #FF8DCB;
-  --h3-color: #353430;
+  --section-title-color: #353430;
   --button-border-color-hover: #32312D66;
   --button-border-color-focus: #353430;
   --button-color: #353430;
   --active-button-border-color: #353430;
   --link-states-color: #353430;
+  --decorative-corner-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,12 +22,13 @@
     --title-decor-color: #353430;
     --header-footer-title-color: #FFC2E6;
     --accent-color: #FF8DCB;
-    --h3-color: #353430;
+    --section-title-color: #353430;
     --button-border-color-hover: #32312D66;
     --button-border-color-focus: #353430;
     --button-color: #353430;
     --active-button-border-color: #353430;
     --link-states-color: #353430;
+    --decorative-corner-color: #353430;
   }
 
   .header__rec-indicator {
